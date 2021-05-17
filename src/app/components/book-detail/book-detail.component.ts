@@ -39,7 +39,7 @@ export class BookDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  //update book
+  //update book v2
   onUpdate() : any{
     this.crudService.updateBook(this.getId , this.updateForm.value).subscribe(()=>{
       console.log('Data updated sucessfully');
